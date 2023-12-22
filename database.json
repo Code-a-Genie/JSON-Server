@@ -1,0 +1,42 @@
+{
+    "user" : [
+        {
+         "id"  : 1,
+         "name" : "Leanne Graham" ,
+         "email" : "leanne@examle.com" ,
+         "profile" : "https://images.unsplash.com/photo-1",
+         "status" : "Active",
+         "role" : "Admin"
+
+    },
+    {
+        "id"  : 2,
+        "name" : "John Doe" ,
+        "email" : "leanne@examle.com" ,
+        "profile" : "https://images.unsplash.com/photo-2",
+        "status" : "Active",
+        "role" : "Owner"
+
+   },
+
+   {
+    "id"  : 3,
+    "name" : "Genie Code" ,
+    "email" : "leanne@examle.com" ,
+    "profile" : "https://images.unsplash.com/photo-3",
+    "status" : "Active",
+    "role" : "Admin"
+
+},
+{
+    "id"  : 4,
+    "name" : "Ivegot Aname" ,
+    "email" : "leanne@examle.com" ,
+    "profile" : "https://images.unsplash.com/photo-4",
+    "status" : "Active",
+    "role" : "Admin"
+
+}
+
+    ]
+}
