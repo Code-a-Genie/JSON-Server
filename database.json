@@ -25,7 +25,7 @@
     "email" : "leanne@examle.com" ,
     "profile" : "https://images.unsplash.com/photo-3",
     "status" : "Active",
-    "role" : "Admin"
+    "role" : "member"
 
 },
 {
@@ -34,7 +34,7 @@
     "email" : "leanne@examle.com" ,
     "profile" : "https://images.unsplash.com/photo-4",
     "status" : "Active",
-    "role" : "Admin"
+    "role" : "member"
 
 }
 

@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch \"C:\\Users\\Admin\\Desktop\\My dev journey\\JSON Server\\database.json\""
+    "start": "json-server --watch \"C:\\Users\\Admin\\Desktop\\My dev journey\\JSON Server\\database.json\"",
+    "build:css": "tailwindcss build -i style.css -o tailwind.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.4"
+    "json-server": "^0.17.4",
+    "tailwindcss": "^3.4.0"
   }
 }

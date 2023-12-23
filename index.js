@@ -5,7 +5,7 @@ let tbody = document.getElementById('tbody');
 
 
 //call fetch function
-fetch(" http://localhost:3000/user")
+fetch("http://localhost:3000/user")
 .then (res =>res.json())
 .then (json => {
     json.map(data =>{
@@ -17,7 +17,7 @@ fetch(" http://localhost:3000/user")
 
 //create table data(td)
 
-function td_fun({profile, name}){
+function td_fun({profile, name,email, status, role}){
     let td = document.createElement('tr');
     td.innerHTML =`
     <td class="px-6 py-4 whitespace-nowrap">
