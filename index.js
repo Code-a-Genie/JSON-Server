@@ -47,3 +47,24 @@ function td_fun({profile, name,email, status, role}){
     `;
     return td;
 }
+
+// dropdown menu toggle
+
+document.addEventListener('DOMContentLoaded' function(){
+
+    const menuButton = document.getElementById('menu-button');
+    const dropDown = document.querySelectorAll('.absolute');
+
+    menuButton.addEventListener('click', function(e){
+        dropDown.classList.toggle('hidden')
+
+        const menuItems = document.querySelectorAll('[role=menuitem]');
+    })
+
+    menuItems.forEach((item) => {
+        item.addEventListener('click', function(){
+            dropDown.classList.add('hidden');
+        })
+        
+    });
+})

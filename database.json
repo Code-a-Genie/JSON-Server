@@ -3,9 +3,9 @@
         {
          "id"  : 1,
          "name" : "Leanne Graham" ,
-         "email" : "leanne@examle.com" ,
+         "email" : "leanne@example.com" ,
          "profile" : "https://images.unsplash.com/photo-1",
-         "status" : "Active",
+         "status" : "inactive",
          "role" : "Admin"
 
     },
@@ -24,7 +24,7 @@
     "name" : "Genie Code" ,
     "email" : "leanne@examle.com" ,
     "profile" : "https://images.unsplash.com/photo-3",
-    "status" : "Active",
+    "status" : "inactive",
     "role" : "member"
 
 },
